@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/xentra-identity-keycloak",
+  "packageVersion": "0.2.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/xentra-identity-keycloak",
+  "usageRepository": "https://github.com/x12i-sdk/xentra-identity-keycloak",
+  "sourceRepository": "https://github.com/x12i/xentra",
+  "sourceCommit": "004372e6695509bf2e95d2e4e53d4534e81dd312",
+  "sourcePackageDirectory": "packages/identity-keycloak",
+  "example": {
+    "title": "Verify a locally signed token through an explicit Keycloak client",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T14:37:40.861223+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "b9d90d7cfa0514e0f26df649fad66dca3263abf5149de28b60c551a5c37f3083",
+    "manifestSha256": "be2fe68550fd7ae37d68b57029269eedd41d372d3d67920a46fe487236b407b1"
+  },
+  "validationFiles": {
+    "src/index.mjs": "b9d90d7cfa0514e0f26df649fad66dca3263abf5149de28b60c551a5c37f3083"
+  }
+}

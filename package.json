@@ -1,0 +1,22 @@
+{
+  "name": "xentra-identity-keycloak-usage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Usage example for @x12i/xentra-identity-keycloak: verify a locally signed token through an explicit keycloak client.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "check": "node --check src/index.mjs"
+  },
+  "dependencies": {
+    "@x12i/xentra-identity-keycloak": "0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x12i-sdk/xentra-identity-keycloak.git"
+  },
+  "homepage": "https://www.npmjs.com/package/@x12i/xentra-identity-keycloak"
+}
